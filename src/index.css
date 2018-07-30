@@ -1,3 +1,5 @@
+@import './normalize.css';
+
 * {
   box-sizing: border-box;
 }
@@ -10,15 +12,35 @@ body {
 }
 
 .app {
-  width: 400px;
+  width: 500px;
   max-width: 100%;
-  padding: 1rem;
-  margin: 0 auto;
+  padding: 2rem;
+  margin: 1rem auto;
   background: #ffffff;
+}
+
+.logo {
+  margin: 1rem 0;
 }
 
 .input_field {
   font-size: 2rem;
   padding: 5px;
   width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .app {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .logo {
+    margin: 10px 0;
+  }
+
+  .logo img {
+    width: 30%;
+  }
 }
