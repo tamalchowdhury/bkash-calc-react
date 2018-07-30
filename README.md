@@ -1,4 +1,4 @@
-- Bkash Agent Cashout Calculator in React
+# Bkash Agent Cashout Calculator in React
 
 Live demo: http://bkash-calc.tamalanwar.com/
 
